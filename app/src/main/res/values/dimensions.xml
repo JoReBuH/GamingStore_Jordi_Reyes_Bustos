@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamañoLetraTextoPantallaPrincipal">50sp</dimen>
+    <dimen name="widthImageViewGaleriaImagenes">300dp</dimen>
+    <dimen name="heightImageViewGaleriaImagenes">300dp</dimen>
+    <dimen name="marginLeftImageViewGaleriaImagenes">40dp</dimen>
+    <dimen name="width_y_heigthImagenNavigationBar">130dp</dimen>
+    <dimen name="tamañoTextosPantallaLogin">20sp</dimen>
+    <dimen name="marginTopEntreTextView_y_EditText_PantallaLogin">25dp</dimen>
+    <dimen name="tamañoTextoSelecionDePlataforma">20sp</dimen>
+    <dimen name="marginLeftPantallaSelecionPlataforma">80dp</dimen>
+    <dimen name="width_y_heightImagenBtnPantallaSelecion">150dp</dimen>
+    <dimen name="marginLeftPantallaSelecionPlataformaEntreImagenes">25dp</dimen>
+    <dimen name="marginLeftTextoPCPantallaSelecion">155dp</dimen>
+    <dimen name="marginLeftTextoSwitchPantallaSelecion">130dp</dimen>
+    <dimen name="width_y_heightImagenLayoutItemPS4">150dp</dimen>
+    <dimen name="marginLeftTextosItemPS4">25dp</dimen>
+    <dimen name="tamañoTituloItemPS4">30sp</dimen>
+    <dimen name="tamañoTextoTituloJuegoSelecionado">40sp</dimen>
+    <dimen name="marginLeftPantallaJuegoSelecionado">50dp</dimen>
+    <dimen name="marginTopPrecioPantallaJuego">45dp</dimen>
+    <dimen name="tamañoTextoPrecioPantallaJuegoSelecionado">30sp</dimen>
+    <dimen name="width_y_heigthTamañoImagenPantallaJuegoSelecionado">450px</dimen>
+    <dimen name="tamañoTextoDescripcionCompletaPantallaJuego">20sp</dimen>
+</resources>

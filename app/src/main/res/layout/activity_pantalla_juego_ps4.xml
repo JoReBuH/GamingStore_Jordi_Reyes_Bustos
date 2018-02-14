@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joreb.gamingstore_jordi_reyes_bustos.PantallaJuegoPS4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloJuegoSelecionadoPS4"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tamañoTextoTituloJuegoSelecionado"/>
+
+
+    <ImageView
+        android:layout_width="@dimen/width_y_heigthTamañoImagenPantallaJuegoSelecionado"
+        android:layout_height="@dimen/width_y_heigthTamañoImagenPantallaJuegoSelecionado"
+        android:id="@+id/imagenJuegoSelecionadoPS4"
+        android:layout_below="@id/tituloJuegoSelecionadoPS4"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PrecioJuegoSelecionadoPS4"
+        android:layout_below="@id/tituloJuegoSelecionadoPS4"
+        android:layout_toRightOf="@id/imagenJuegoSelecionadoPS4"
+        android:layout_marginTop="@dimen/marginTopPrecioPantallaJuego"
+        android:textSize="@dimen/tamañoTextoPrecioPantallaJuegoSelecionado"
+        android:layout_marginLeft="@dimen/marginLeftPantallaJuegoSelecionado" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PrecioJuegoSelecionadoPS4"
+        android:layout_toRightOf="@id/imagenJuegoSelecionadoPS4"
+        android:layout_marginLeft="@dimen/marginLeftPantallaJuegoSelecionado"
+        android:text="Comprar"
+        android:id="@+id/btnCompraJuegoSelecionadoPS4"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoTextoDescripcionCompletaPantallaJuego"
+        android:id="@+id/DescripcionAmpliadaJuegoSelecionadoPS4"
+        android:layout_below="@id/imagenJuegoSelecionadoPS4"/>
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DescripcionAmpliadaJuegoSelecionadoPS4"
+        android:id="@+id/VideoYoutubeJuegoPS4">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+</RelativeLayout>

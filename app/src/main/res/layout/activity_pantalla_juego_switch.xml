@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joreb.gamingstore_jordi_reyes_bustos.PantallaJuegoSWITCH">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloJuegoSelecionadoSWITCH"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tamañoTextoTituloJuegoSelecionado"/>
+
+
+    <ImageView
+        android:layout_width="@dimen/width_y_heigthTamañoImagenPantallaJuegoSelecionado"
+        android:layout_height="@dimen/width_y_heigthTamañoImagenPantallaJuegoSelecionado"
+        android:id="@+id/imagenJuegoSelecionadoSWITCH"
+        android:layout_below="@id/tituloJuegoSelecionadoSWITCH"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PrecioJuegoSelecionadoSWITCH"
+        android:layout_below="@id/tituloJuegoSelecionadoSWITCH"
+        android:layout_toRightOf="@id/imagenJuegoSelecionadoSWITCH"
+        android:layout_marginTop="@dimen/marginTopPrecioPantallaJuego"
+        android:textSize="@dimen/tamañoTextoPrecioPantallaJuegoSelecionado"
+        android:layout_marginLeft="@dimen/marginLeftPantallaJuegoSelecionado" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PrecioJuegoSelecionadoSWITCH"
+        android:layout_toRightOf="@id/imagenJuegoSelecionadoSWITCH"
+        android:layout_marginLeft="@dimen/marginLeftPantallaJuegoSelecionado"
+        android:text="Comprar"
+        android:id="@+id/btnCompraJuegoSelecionadoSWITCH"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoTextoDescripcionCompletaPantallaJuego"
+        android:id="@+id/DescripcionAmpliadaJuegoSelecionadoSWITCH"
+        android:layout_below="@id/imagenJuegoSelecionadoSWITCH"/>
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DescripcionAmpliadaJuegoSelecionadoSWITCH"
+        android:id="@+id/VideoYoutubeJuegoSWITCH">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+</RelativeLayout>

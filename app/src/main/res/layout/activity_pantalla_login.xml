@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joreb.gamingstore_jordi_reyes_bustos.PantallaLogin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoIntroduceUsuarioLogin"
+        android:textSize="@dimen/tamañoTextosPantallaLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:id="@+id/TextoIntrodiceUsuarioPantallaLogin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextoIntrodiceUsuarioPantallaLogin"
+        android:layout_marginTop="@dimen/marginTopEntreTextView_y_EditText_PantallaLogin"
+        android:id="@+id/EditTextUsuarioPantallaLogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoContraseñaLogin"
+        android:layout_below="@id/EditTextUsuarioPantallaLogin"
+        android:textSize="@dimen/tamañoTextosPantallaLogin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TextoContraseña"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextoContraseña"
+        android:layout_marginTop="@dimen/marginTopEntreTextView_y_EditText_PantallaLogin"
+        android:inputType="textPassword"
+        android:id="@+id/EditTextContraseña"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBtnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTopEntreTextView_y_EditText_PantallaLogin"
+        android:layout_below="@id/EditTextContraseña"
+        />
+
+</RelativeLayout>

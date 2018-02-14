@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menuPerfil"
+    android:title="@string/textoMenuPerfil"
+    android:icon="@drawable/imagen_icono_navigation_bar"
+    >
+</item>
+    <item
+        android:id="@+id/menuVideojuegos"
+        android:title="@string/textoMenuVideojuegos"
+        android:icon="@drawable/imagen_menu_videojuegos"
+        >
+    </item>
+    <item
+        android:id="@+id/menuCesta"
+        android:title="@string/textoMenuCesta"
+        android:icon="@drawable/imagen_menu_cesta"
+        >
+    </item>
+    <item
+        android:id="@+id/menuCalendario"
+        android:title="@string/textoMenuCalendario"
+        android:icon="@drawable/imagen_menu_calendario"
+        >
+    </item>
+</menu>

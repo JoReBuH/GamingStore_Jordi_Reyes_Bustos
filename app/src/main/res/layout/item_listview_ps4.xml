@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/width_y_heightImagenLayoutItemPS4"
+            android:layout_height="@dimen/width_y_heightImagenLayoutItemPS4"
+            android:id="@+id/ImagenItemPS4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeftTextosItemPS4"
+                android:text="@string/TextoTituloItemPS4"
+                android:id="@+id/ItemTitulo"
+                android:textSize="@dimen/tamañoTituloItemPS4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeftTextosItemPS4"
+                android:text="@string/TextoDescripcionItemPS4"
+                android:id="@+id/ItemDescripcion"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

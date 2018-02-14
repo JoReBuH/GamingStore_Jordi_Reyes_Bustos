@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GamingStore_Jordi_Reyes_Bustos</string>
+    <string name="textoPantallaPrincipal">Novedades!</string>
+    <string name="textoBtnAnteriorPantallaPrincipal">Anterior</string>
+    <string name="textoBtnSiguientePantallaPrincipal">Siguente</string>
+    <string-array name="arrayNombresImagenesGaleria">
+        <item>Call Of Duty WW2</item>
+        <item>Destiny 2</item>
+    </string-array>
+    <string name="textoMenuPerfil">Perfil</string>
+    <string name="textoMenuVideojuegos">Videojuegos</string>
+    <string name="textoMenuCesta">Cesta</string>
+    <string name="textoMenuCalendario">Calendario</string>
+    <string name="Open">Navigation Bar</string>
+    <string name="Close">Navigation Bar</string>
+    <string name="textoBtnIniciarSecion">Iniciar Sesion</string>
+    <string name="textoBtnRegistrarse">Registrarse</string>
+    <string name="textoIntroduceUsuarioLogin">Introduce el Usuario</string>
+    <string name="textoContraseñaLogin">Contraseña</string>
+    <string name="textoBtnLogin">Iniciar Sesion</string>
+    <string name="textoNombreUsuarioPantallaRegistro">Nombre Usuario</string>
+    <string name="textoCorreoPantallaRegistro">Correo Electronico</string>
+    <string name="textoContraseñaPantallaRegistro">Contraseña</string>
+    <string name="textoPaisPantallaRegistro">Pais</string>
+    <string name="textoDireccionPantallaRegistro">Direccion</string>
+    <string name="textoCodigoPostalPantallaRegistro">Codigo Postal</string>
+    <string name="textoFechaNacimientoPantallaRgistro">Fecha Nacimiento</string>
+    <string name="textoActivacionDatePickerPantallaRegistro">Pulsa aqui para introducir la fecha de nacimiento</string>
+    <string name="textoPlataformaPantallaSelecionPlataforma">Seleciona la plataforma del videojuego:</string>
+    <string name="TextoPS4PantallaPlataforma">PS4</string>
+    <string name="TextoXboxPantallaPlataforma">XBOX</string>
+    <string name="TextoPCPantallaPlataforma">PC</string>
+    <string name="TextoSWITCHPantallaPlataforma">SWITCH</string>
+    <string name="TextoTituloItemPS4">Titulo</string>
+    <string name="TextoDescripcionItemPS4">Descripcion</string>
+</resources>
